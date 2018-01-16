@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:3.7
 
 RUN apk add -U gpgme curl mtr && rm -rf /var/cache/apk/*
 RUN mkdir /minion-dir
